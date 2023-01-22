@@ -39,9 +39,59 @@ a[href$=".ng"]{
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
-.head{
+body{
+    background: rgb(50,150,175);
+    width: 100%;
+    height: 100%;
+}
+header{
+    background: black;
+    height: 250px;
+    width: 100%;
+}
+header .backgrounddiff{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    background-color: burlywood;
+}
+.first-layer{
+    background-color: #FFCCCC;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-layer{
+    background: #FABDBD;
+    
+}
+.third-layer{
+    background-color: #FCB0B0;
+}
+
+.head-img{
+
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.head-img img{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-self: center;
+    /*justify-content:center;*/
+}
+footer{
+    border-top: 2px solid black;
+    background-color: rgb(50,50,150);
+    width: 100%;
+    height: 100px;
 }
