@@ -84,8 +84,14 @@ footer img{
     /*background-color: #FABDBD;*/
     padding-left: 10px;
 }
-/* .socials {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-} */
+#socials{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-evenly;
+    
+        background-color: red;
+        
+        /* display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between; */
+    } 
